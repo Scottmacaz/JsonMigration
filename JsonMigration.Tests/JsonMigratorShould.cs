@@ -1,9 +1,8 @@
 ﻿using FluentAssertions;
+using JsonMIgration.Lib.Domain.Books;
 using JsonMIgration.Lib.Exporters;
 using JsonMIgration.Lib.JsonMigrations;
-using JsonMIgration.Lib.Protocols;
 using JsonMIgration.Lib.Repositories;
-using System.Collections.Generic;
 using Xunit;
 
 namespace JsonMigration.Tests

@@ -1,4 +1,4 @@
-﻿namespace JsonMIgration.Lib.Protocols
+﻿namespace JsonMIgration.Lib.Domain.Books
 {
     public class Chapter
     {

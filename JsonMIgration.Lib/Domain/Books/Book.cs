@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JsonMIgration.Lib.Protocols
+namespace JsonMIgration.Lib.Domain.Books
 {
     public class Book
     {
