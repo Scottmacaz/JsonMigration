@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace JsonMIgration.Lib.Migrations.MigrationOperations
 {
-    class DeleteOperation : IMigrationOperation
+    class RemoveOperation : IMigrationOperation
     {
         private string _fieldToDelete;
-        public DeleteOperation(string fieldToDelete)
+        public RemoveOperation(string fieldToDelete)
         {
             _fieldToDelete = fieldToDelete;
         }

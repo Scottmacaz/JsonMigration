@@ -4,14 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{960D25A0-84FE-48E9-A1C6-7EABC05C5AD1}</ProjectGuid>
+    <ProjectGuid>{A39AA79A-AE06-484A-A903-9546AFC2C445}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>JsonMIgration.Lib</RootNamespace>
-    <AssemblyName>JsonMIgration.Lib</AssemblyName>
+    <RootNamespace>JsonMigration.Domain</RootNamespace>
+    <AssemblyName>JsonMigration.Domain</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,15 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CSharpFunctionalExtensions, Version=2.1.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\CSharpFunctionalExtensions.2.1.1\lib\net461\CSharpFunctionalExtensions.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Semver, Version=2.0.5.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Semver.2.0.5\lib\net452\Semver.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -50,24 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Helpers\JsonHelpers.cs" />
-    <Compile Include="MigrationOperations\AddArrayOperation.cs" />
-    <Compile Include="MigrationOperations\AddOperation.cs" />
-    <Compile Include="MigrationOperations\RemoveOperation.cs" />
-    <Compile Include="MigrationOperations\RenameOperation.cs" />
-    <Compile Include="MigrationOperations\IMigrationOperation.cs" />
+    <Compile Include="Books\Book.cs" />
+    <Compile Include="Books\Chapter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="IJsonMigrator.cs" />
-    <Compile Include="IJsonMigration.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\JsonMigration.Domain\JsonMigration.Domain.csproj">
-      <Project>{a39aa79a-ae06-484a-a903-9546afc2c445}</Project>
-      <Name>JsonMigration.Domain</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

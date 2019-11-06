@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2005
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonMIgration.Lib", "JsonMIgration.Lib\JsonMIgration.Lib.csproj", "{960D25A0-84FE-48E9-A1C6-7EABC05C5AD1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonMigration.Tests", "JsonMigration.Tests\JsonMigration.Tests.csproj", "{D942BCC8-52E1-41D6-BCD1-24882B42BB3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonMigration.Domain", "JsonMigration.Domain\JsonMigration.Domain.csproj", "{A39AA79A-AE06-484A-A903-9546AFC2C445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonMigration.ApplicationServices", "JsonMigration.ApplicationServices\JsonMigration.ApplicationServices.csproj", "{CE85C4C8-ACB4-4EC2-A209-F8E18FF42551}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{D942BCC8-52E1-41D6-BCD1-24882B42BB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D942BCC8-52E1-41D6-BCD1-24882B42BB3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D942BCC8-52E1-41D6-BCD1-24882B42BB3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A39AA79A-AE06-484A-A903-9546AFC2C445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A39AA79A-AE06-484A-A903-9546AFC2C445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A39AA79A-AE06-484A-A903-9546AFC2C445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A39AA79A-AE06-484A-A903-9546AFC2C445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE85C4C8-ACB4-4EC2-A209-F8E18FF42551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE85C4C8-ACB4-4EC2-A209-F8E18FF42551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE85C4C8-ACB4-4EC2-A209-F8E18FF42551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE85C4C8-ACB4-4EC2-A209-F8E18FF42551}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

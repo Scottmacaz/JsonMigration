@@ -1,11 +1,11 @@
-﻿namespace JsonMIgration.Lib.Domain.Books
+﻿namespace JsonMigration.Domain.Books
 {
     public class Chapter
     {
         public string Name { get; private set; }
         public int Number { get; private set; }
 
-        
+
         //CreationDate
         //Status
 

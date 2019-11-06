@@ -1,5 +1,4 @@
-﻿
-using JsonMIgration.Lib.Domain.Books;
+﻿using JsonMigration.Domain.Books;
 using Newtonsoft.Json.Linq;
 
 namespace JsonMIgration.Lib.Exporters
